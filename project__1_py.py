@@ -51,14 +51,6 @@ tasks = st.text_area("Enter today's tasks (comma-separated)").split(',')
 st.header("Reminders")
 reminders = st.text_area("Enter reminders (comma-separated)").split(',')
 
-# Health Monitor
-st.header("Health Monitor")
-health_metrics = {
-    "Sleep Hours": st.slider("Sleep Hours", 0, 12, 8),
-    "Exercise": st.radio("Exercise", ("Yes", "No")),
-    "Water Intake (L)": st.slider("Water Intake (L)", 0, 5, 2)
-}
-
 # Household Chores
 st.header("Household Chores")
 chores = st.text_area("Enter household chores (comma-separated)").split(',')
