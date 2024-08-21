@@ -9,8 +9,6 @@ Original file is located at
 Install required library
 """
 
-pip install streamlit pandas google-auth google-auth-oauthlib
-
 """**Design the Planner App**
 
 1.Import Libraries:
@@ -19,7 +17,6 @@ pip install streamlit pandas google-auth google-auth-oauthlib
 import streamlit as st
 import pandas as pd
 from datetime import datetime, time
-import streamlit as st
 
 st.title('Simple Test App')
 st.write('This is a test.')
