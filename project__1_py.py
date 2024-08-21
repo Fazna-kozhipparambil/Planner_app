@@ -21,20 +21,7 @@ from datetime import datetime, time
 st.title('Simple Test App')
 st.write('This is a test.')
 
-"""2.Create User Login and Role Management:"""
 
-users = {"parent1": "password1", "parent2": "password2", "child1": "password3"}
-roles = {"parent1": "admin", "parent2": "admin", "child1": "user"}
-
-username = st.text_input("Username")
-password = st.text_input("Password", type="password")
-
-if username in users and users[username] == password:
-    st.success(f"Welcome {username}")
-    role = roles[username]
-else:
-    st.error("Invalid credentials")
-    st.stop()
 
 """3.Design the Layout:"""
 
