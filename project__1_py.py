@@ -9,7 +9,7 @@ Original file is located at
 Install required library
 """
 
-! pip install streamlit pandas google-auth google-auth-oauthlib
+pip install streamlit pandas google-auth google-auth-oauthlib
 
 """**Design the Planner App**
 
