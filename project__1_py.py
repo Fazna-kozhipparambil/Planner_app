@@ -19,6 +19,10 @@ Install required library
 import streamlit as st
 import pandas as pd
 from datetime import datetime, time
+import streamlit as st
+
+st.title('Simple Test App')
+st.write('This is a test.')
 
 """2.Create User Login and Role Management:"""
 
