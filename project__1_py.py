@@ -11,9 +11,6 @@ Install required library
 
 """**Design the Planner App**
 
-1.Import Libraries:
-"""
-
 import streamlit as st
 import pandas as pd
 from datetime import datetime, time
